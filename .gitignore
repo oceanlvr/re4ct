@@ -3,3 +3,9 @@
 
 # Ada Library Information
 *.ali
+
+.pnpm-debug.log
+
+node_modules/
+
+.husky
