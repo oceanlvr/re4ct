@@ -4,10 +4,10 @@ import {
   Key,
   Ref,
   Props,
-  ReactElement
+  ReactElementType
 } from '../../shared/ReactType'
 
-const ReactElement = function (type: ElementType, key: Key, ref: Ref, props: Props): ReactElement {
+const ReactElement = function (type: ElementType, key: Key, ref: Ref, props: Props): ReactElementType {
   const element = {
     $$typeof: REACT_ELEMENT_TYPE,
     key,
